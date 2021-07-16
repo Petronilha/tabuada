@@ -3,6 +3,6 @@ const router = Router()
 
 const indexController = require('../controllers/index')
 
-router.get('/', indexController)
+router.get('/', indexController.home)
 
 module.exports = router

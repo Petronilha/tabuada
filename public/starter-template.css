@@ -5,3 +5,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+ul li,
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
